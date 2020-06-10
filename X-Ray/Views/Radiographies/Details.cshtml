@@ -1,0 +1,170 @@
+﻿@model X_Ray.Models.Radiography
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Radiography</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.PatientCode)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PatientCode)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Surname)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Surname)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NameOfFather)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NameOfFather)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NameOfMother)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NameOfMother)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.InsuranceCode)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.InsuranceCode)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Gender)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Gender)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DateOfBirth)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DateOfBirth)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Address)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Address)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.HomePhone)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.HomePhone)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.WorkingPhone)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.WorkingPhone)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MobilePhone)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MobilePhone)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RadiographyCode)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RadiographyCode)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DateOfSubmission)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DateOfSubmission)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Reasoning)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Reasoning)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RadiographyActions)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RadiographyActions)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SuggestedDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SuggestedDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Priority)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Priority)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Status)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Status)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
